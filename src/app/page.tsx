@@ -146,6 +146,14 @@ export default function Home() {
     },
 
     {
+      name: "TeamUp TMS",
+      description: "Real-Time Collaborative Task Management System",
+      technologies: ["PHP", "Hack/HHVM", "CSS3", "JavaScript"],
+      image: "/images/teamup.png",
+      link: "https://github.com/Tharindu714/Team-up.git",
+    },
+
+    {
       name: "SmartTrade",
       description: "SmartTrade is a mobie Phone selling Platform",
       technologies: [
@@ -247,12 +255,30 @@ export default function Home() {
     },
 
     {
-      name: "POS System",
+      name: "Invoice Generating System",
       description:
         "This POS System is develop to handle billing system in electronic repair center",
       technologies: ["Java", "MySQL", "Jsper Report"],
       image: "/images/pos.jpg",
       link: "https://github.com/Tharindu714/POS-System.git",
+    },
+
+    {
+      name: "E-Sewana Student Portal",
+      description:
+        "E-Sewana is a student Portal, Where eligible students can download & upload Assignment, Mark Attendance, Pay Lecture fees and all the academic stuff can handle student activities in this portal",
+      technologies: ["PHP", "MySQL", "JavaScript", "JSON", "CSS", "Hack/HHVM"],
+      image: "/images/esewana.jpg",
+      link: "https://github.com/Tharindu714/E-sewana-SMS-API.git",
+    },
+
+    {
+      name: "Company Portfolio WebSite",
+      description:
+        "This project is a business portfolio Web site, developed on the idea of enhancing target customer base",
+      technologies: ["PHP", "MySQL", "JavaScript", "JSON", "CSS", "HTML5", "Hack/HHVM"],
+      image: "/images/deltaC.jpeg",
+      link: "https://github.com/Tharindu714/deltacodex.git",
     },
   ];
   return (
