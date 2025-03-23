@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 export default function Home() {
   const skills = [
     { name: "Java", icon: "♨️" },
@@ -349,7 +349,7 @@ export default function Home() {
       >
         {/* Profile Picture */}
         <div className="text-center position-absolute top-0 start-50 translate-middle">
-          <img
+          <Image
             src="/profile-pic.jpg" // Update with your profile picture path
             alt="Tharindu"
             className="img-fluid rounded-circle"
@@ -548,7 +548,7 @@ export default function Home() {
                     position: "relative",
                   }}
                 >
-                  <img
+                  <Image
                     src={project.image} // Path to the image
                     alt={project.name}
                     style={{

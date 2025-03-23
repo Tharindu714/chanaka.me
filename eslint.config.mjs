@@ -9,8 +9,16 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+// Extend Next.js and TypeScript rules
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  // Custom rules
+  {
+    rules: {
+      "react/no-unescaped-entities": "off", // Disable the rule
+    },
+  },
 ];
 
 export default eslintConfig;
+

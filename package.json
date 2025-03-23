@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@next/swc-win32-x64-msvc": "^15.2.3",
     "@tailwindcss/postcss": "^4.0.15",
     "@types/node": "^20",
     "@types/react": "^19",

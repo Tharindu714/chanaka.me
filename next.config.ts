@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  output: "export", // Enable static export
+  output: "export", // Enables static export
+  images: {
+    unoptimized: true, // Disables Next.js image optimization
+  }
 };
 
 module.exports = nextConfig;
+
+
 
